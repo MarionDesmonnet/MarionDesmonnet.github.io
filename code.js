@@ -7,6 +7,7 @@ if (annyang) {
   };
   
   annyang.debug();
+  annyang.setLanguage('fr-FR');
 
   // Add our commands to annyang
   annyang.addCommands(commands);
